@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 
-driver = webdriver.Edge(executable_path="C:\\Users\\FL_LPT-373\\Downloads\\edgedriver_win64\\msedgedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\\Users\\FL_LPT-373\\Downloads\\chromedriver_win32\\chromedriver.exe")
 # LAUNCHING BROWSER
 def login():
     # c_service = chrome_service("Drivers/chromedriver.exe")
